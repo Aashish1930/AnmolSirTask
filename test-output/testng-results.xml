@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19510" started-at="2019-09-29T09:15:58Z" finished-at="2019-09-29T09:16:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19510" started-at="2019-09-29T09:15:58Z" finished-at="2019-09-29T09:16:17Z">
+      <class name="TestPage.AddCustomerTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestPage.AddCustomerTest@7d417077]" name="setup" is-config="true" duration-ms="16497" started-at="2019-09-29T14:45:58Z" finished-at="2019-09-29T14:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Addcustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestPage.AddCustomerTest@7d417077]" name="Addcustomer" duration-ms="710" started-at="2019-09-29T14:46:17Z" data-provider="getTestData" finished-at="2019-09-29T14:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addcustomer -->
+      </class> <!-- TestPage.AddCustomerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
